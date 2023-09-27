@@ -8,7 +8,7 @@ Esse foi o meu `Primeiro Projeto na Programação`e também no `Back End`. Foi t
 
 | Linguagens de Programação | Ferramentas e Tecnologias |
 | :-----------------: | :-----------------------: |
-| <img height="40" src="https://github.com/rhayssakramer/blob/main/assets/icon/Java-Dark.sgv"> | <img height="40" src="https://github.com/rhayssakramer/blob/main/assets/icon/VSCode-Dark.sgv">
+| <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/Java-Dark.svg"> | <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/VSCode-Dark.svg">
 
 ## Requisitos do Projeto
 
