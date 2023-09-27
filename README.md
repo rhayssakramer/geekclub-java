@@ -8,7 +8,7 @@ Esse foi o meu `Primeiro Projeto na Programação`e também no `Back End`. Foi t
 
 | Linguagens de Programação | Ferramentas e Tecnologias |
 | :-----------------: | :-----------------------: |
-| <img height="40" href="https://github.com/rhayssakramer/blob/main/assets/icon/Java-Dark.sgv"> | <img height="40" href="https://github.com/rhayssakramer/blob/main/assets/icon/VSCode-Dark.sgv">
+| <img height="40" src="https://github.com/rhayssakramer/blob/main/assets/icon/Java-Dark.sgv"> | <img height="40" src="https://github.com/rhayssakramer/blob/main/assets/icon/VSCode-Dark.sgv">
 
 ## Requisitos do Projeto
 
@@ -53,7 +53,7 @@ Utilizar estruturas como:
 <table>
   <tr>
     <td>
-      <img width="80px" align="center" src=""/>
+      <img width="80px" align="center" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/images/logo.png"/>
     </td>
     <td align="left">
       <a href="https://github.com/rhayssakramer">
