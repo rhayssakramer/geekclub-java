@@ -1,18 +1,19 @@
 # Geek Club - Projeto de Menu em Java
 
 Esse foi o meu `Primeiro Projeto na Programação`e também no `Back End`. Foi também um projeto de encerramento da disciplina de **Estrutura de Dados** e **Programação Orientado a Objetos**, ensinada na `Linguagem Java`, com enfoque na usabilidade de elementos para fomentar o conhecimento nessa linguagem de programação.
-
-## Resultado do Projeto
-
-## Tecnologias Utilizadas
-
+  
+## ✨ Resultado do Projeto
+  
+## 🛠️ Tecnologias Utilizadas
+  
 | Linguagens de Programação | Ferramentas e Tecnologias |
 | :-----------------: | :-----------------------: |
 | <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/Java-Dark.svg"> | <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/VSCode-Dark.svg">
-
-## Requisitos do Projeto
-
-#### Projeto - Sistema de Entretenimento:
+  
+## 🗒️ Requisitos do Projeto
+  
+> Projeto - Sistema de Entretenimento
+  
 Crie um programa em Java que gerencie um sistema de entretenimento para pessoas. Este sistema deve ter um menu para oferecer opções de lugares para diversão, para comer e beber (pode ter mais coisas, tipo transporte). Cada opção deve ter seu preço. Após captar todos os desejos do usuário, informe quanto deu sua conta total.
 
 #### Exemplo:
@@ -47,20 +48,33 @@ Utilizar estruturas como:
 `if / else`
 `if / else if / else`
 `switch (opcional)`
+  
+### ▶️ Instruções de Uso
 
+1. Clone ou baixe este repositório para a sua máquina local.
 
-## Autora:
+2. Certifique-se de ter o [Java Development Kit (JDK)](https://www.oracle.com/br/java/technologies/downloads/) instalado na sua máquina e a extensão [Java Extension Pack](https://code.visualstudio.com/docs/java/extensions) instalado no IDE.
+
+3. Abra o terminal e navegue até o diretório raiz do projeto.
+
+4. Compile o programa Java digitando o seguinte comando:
+```
+javac NomeDoArquivo.java
+```
+5. Para executar, utilize o comando:
+```
+java NomeDoArquivo
+```
+  
+## 👩🏼‍💻 Autoria:
 <table>
   <tr>
-    <td>
-      <img width="80px" align="center" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/images/logo.png"/>
-    </td>
     <td align="left">
       <a href="https://github.com/rhayssakramer">
         <span><b>Rhayssa Kramer</b></span>
       </a>
       <br>
-      <span>Desenvolvedora Full Stack</span>
+      <span>Assoc, Full-Stack Development</span>
     </td>
   </tr>
 </table>
