@@ -33,18 +33,15 @@ Crie um programa em Java que gerencie um sistema de entretenimento para pessoas.
 - Todos os dados são capturados pelo console (entrada do usuário).
 - Exibir mensagens apropriadas a cada situação (você tem que interagir com o usuário).
 - O usuário tem a opção de não escolher nada.
-
-Utilizar inteiros para a escolha dos itens:
+- Utilizar inteiros para a escolha dos itens:
 `(1) Pepsi`
 `(2) Fanta`
 `(3) Coca-cola`
-
-Utilizar pelo menos uma variável:
+- Utilizar pelo menos uma variável:
 `String`
 `Int`
 `Double`
-
-Utilizar estruturas como:
+- Utilizar estruturas como:
 `if / else`
 `if / else if / else`
 `switch (opcional)`
