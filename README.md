@@ -1,4 +1,4 @@
-# Geek Club - Projeto de Menu em Java
+# Geek Club - Menu em Java
 
 Esse foi o meu `Primeiro Projeto na Programação`e também no `Back End`. Foi também um projeto de encerramento da disciplina de **Estrutura de Dados** e **Programação Orientado a Objetos**, ensinada na `Linguagem Java`, com enfoque na usabilidade de elementos para fomentar o conhecimento nessa linguagem de programação.
   
@@ -66,8 +66,13 @@ javac NomeDoArquivo.java
 java NomeDoArquivo
 ```
   
+## 🔗 Créditos
+Este projeto foi desenvolvido como parte de avaliação das disciplinas de `Estrutura de Dados` e `Programação Orientado a Objetos`, para avaliar o ensinado em sala, sobre os fundamentos básicos aplicados na Linguagem `Java`.
+
+*Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial.*
+  
 ## 👩🏼‍💻 Autoria:
-<table>
+<table style="border=0">
   <tr>
     <td align="left">
       <a href="https://github.com/rhayssakramer">
@@ -79,5 +84,4 @@ java NomeDoArquivo
   </tr>
 </table>
 
-##
-<div align="center">Feito por <a href="https://github.com/rhayssakramer">@devrhakramer</a>.</div>
+### <div align="center">Feito por <a href="https://github.com/rhayssakramer">@devrhakramer</a></div>
