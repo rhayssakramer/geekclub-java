@@ -1,14 +1,71 @@
+<div align="center">
+
+<img src="./img/logo.png" width="30">  
+
 # Geek Club - Menu em Java
+
+**Sistema interativo de entretenimento para praticar Java.**  
+*Aprende estruturas de dados e POO enquanto constrói um menu funcional.
+
+[![Java](https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white)](#%EF%B8%8F-stack)
+
+</div>
+
+---
+
+## 📑 Sumário
+
+- [O que é isso](#-o-que-é-isso)
+- [Resultado do Projeto](#-resultado-do-projeto)
+- [Tecnologias](#-tecnologias)
+- [Estrutura](#-estrutura)
+- [Requisitos do Projeto](#-requisitos-do-projeto)
+- [Instruções de Uso](#-instruções-de-uso)
+- [Créditos](#-créditos)
+- [Autora](#-autora)
+
+---
+
+## 🎯 O que é isso
 
 Esse foi o meu `Primeiro Projeto na Programação`e também no `Back End`. Foi também um projeto de encerramento da disciplina de **Estrutura de Dados** e **Programação Orientado a Objetos**, ensinada na `Linguagem Java`, com enfoque na usabilidade de elementos para fomentar o conhecimento nessa linguagem de programação.
   
 ## ✨ Resultado do Projeto
+
+<img src="./img/image-1.png">
+<img src="./img/image-2.png">
+<img src="./img/image-3.png">
+
   
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias
   
 | Linguagens de Programação | Ferramentas e Tecnologias |
 | :-----------------: | :-----------------------: |
-| <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/Java-Dark.svg"> | <img height="40" src="https://github.com/rhayssakramer/rhayssakramer/blob/main/assets/icon/VSCode-Dark.svg">
+| <img height="40" src="https://skillicons.dev/icons?i=java"> | <img height="40" src="https://skillicons.dev/icons?i=vscode">
+
+---
+
+## 📁 Estrutura
+
+```
+geekclub-java/
+├── README.md                 # Documentação do projeto
+├── App.java/                 # Pasta principal do projeto
+│   ├── bin/                  # Arquivos compilados (.class)
+│   └── src/
+│       └── App.java          # Arquivo principal com o programa completo
+└── img/                      # Imagens e recursos visuais
+    ├── logo.png
+    ├── image-1.png
+    ├── image-2.png
+    └── image-3.png
+```
+
+**Descrição:**
+- **App.java/** - Diretório que contém o código fonte Java e binários compilados
+- **src/** - Pasta com os arquivos `.java` do projeto
+- **bin/** - Pasta gerada automaticamente com os arquivos `.class` compilados
+- **img/** - Armazena as imagens da documentação e visual do projeto
   
 ## 🗒️ Requisitos do Projeto
   
@@ -16,10 +73,12 @@ Esse foi o meu `Primeiro Projeto na Programação`e também no `Back End`. Foi t
   
 Crie um programa em Java que gerencie um sistema de entretenimento para pessoas. Este sistema deve ter um menu para oferecer opções de lugares para diversão, para comer e beber (pode ter mais coisas, tipo transporte). Cada opção deve ter seu preço. Após captar todos os desejos do usuário, informe quanto deu sua conta total.
 
-#### Exemplo:
-- Cinema - O exorcista, Brinquedo Assassino, Frozen.
-- Comida - strogonoff, pizza, lasanha.
-- Bebida - Caipiroska, Coca-cola, água de côco.
+#### Implementação do Geek Club:
+- **Diversões:** Salão de Games, Boliche, Pista de Patinação
+- **Comidas:** Batata Frita, Hambúrguer, Hot-Dog
+- **Bebidas:** Coca-Cola, Suco, Água
+- **Tempos:** 2 horas (R$ 35), 5 horas (R$ 75), Diária (R$ 100)
+- **Pagamento:** Dinheiro, PIX, Débito, Crédito
 
 #### Especificações de conteúdo:
 - Indique um nome para seu negócio.
@@ -50,35 +109,53 @@ Crie um programa em Java que gerencie um sistema de entretenimento para pessoas.
 
 1. Clone ou baixe este repositório para a sua máquina local.
 
-2. Certifique-se de ter o [Java Development Kit (JDK)](https://www.oracle.com/br/java/technologies/downloads/) instalado na sua máquina e a extensão [Java Extension Pack](https://code.visualstudio.com/docs/java/extensions) instalado no IDE.
+2. Certifique-se de ter o [Java Development Kit (JDK)](https://www.oracle.com/br/java/technologies/downloads/) instalado na sua máquina e a extensão [Java Extension Pack](https://code.visualstudio.com/docs/java/extensions) instalado no VS Code.
 
-3. Abra o terminal e navegue até o diretório raiz do projeto.
+3. Abra o terminal e navegue até o diretório do projeto (pasta `App.java`).
 
-4. Compile o programa Java digitando o seguinte comando:
+4. Compile o programa Java com encoding UTF-8:
+```bash
+javac -encoding UTF-8 src/App.java
 ```
-javac NomeDoArquivo.java
+
+5. Execute o programa:
+```bash
+java -cp src App
 ```
-5. Para executar, utilize o comando:
-```
-java NomeDoArquivo
-```
+
+**Nota:** O arquivo compilado será gerado na pasta `src/`. Certifique-se de estar no diretório correto antes de executar os comandos.
   
 ## 🔗 Créditos
 Este projeto foi desenvolvido como parte de avaliação das disciplinas de `Estrutura de Dados` e `Programação Orientado a Objetos`, para avaliar o ensinado em sala, sobre os fundamentos básicos aplicados na Linguagem `Java`.
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial.*
   
-## 👩🏼‍💻 Autoria:
-<table style="border=0">
+---
+
+## 👩🏼‍💻 Autora
+
+<table>
   <tr>
     <td align="left">
       <a href="https://github.com/rhayssakramer">
-        <span><b>Rhayssa Kramer</b></span>
+        <strong>Rhayssa Kramer</strong>
       </a>
       <br>
       <span>Assoc, Full-Stack Development</span>
+      <br>
+      <small>Avanade | Tech Content Creator | Community Speaker</small>
     </td>
   </tr>
 </table>
 
-### <div align="center">Feito por <a href="https://github.com/rhayssakramer">@devrhakramer</a></div>
+---
+
+<div align="center">
+
+### ⭐ Se este projeto foi útil, considere deixar uma estrela no GitHub!
+
+© 2026 Rhayssa Kramer. Todos os direitos reservados.
+
+<a href="https://github.com/rhayssakramer"><img src="https://github.com/rhayssakramer/rhayssakramer/blob/main/img/rodape.png" width="100%"></a>
+
+</div>
