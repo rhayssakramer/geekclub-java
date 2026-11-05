@@ -1,75 +1,75 @@
 import java.util.Scanner;
 
 public class App {
-  // * Variáveis do Switch.*//
+  // * Variaveis do Switch.*//
   static String dinheiro, resultado, hora, lanche, outrolanche, refri, outrorefri;
   static double valortempo, valorcomida, outracomida, valorbebida, outrabebida;
 
   public static void main(String[] args) {
-    // * Variáveis do programa.*//
+    // * Variaveis do programa.*//
     int opcao, tempo, opcaocomida, opcaobebida, comida, maiscomida, bebida, maisbebida, pagamento,
         escolhafim;
     double total;
     Scanner dados = new Scanner(System.in);
 
-    // * Parte introdutória do programa.*//
+    // * Parte introdut\u00f3ria do programa.*//
     do {
       System.out.println("                              ");
       System.out.println("Seja Bem-Vindo ao Geek Club!");
       System.out.println("                              ");
       System.out.println(
-          "Somos um novo conceito de Park Tech, líder na América Latina com vários ambientes temáticos do mundo Nerd!");
+          "Somos um novo conceito de Park Tech, lider na America Latina com varios ambientes tematicos do mundo Nerd!");
       System.out.println("------------------------------");
-      System.out.println("Vamos juntos embarcar nessa aventura cheia de diversões? VEM COMIGO!");
+      System.out.println("Vamos juntos embarcar nessa aventura cheia de diversoes? VEM COMIGO!");
       System.out.println(
-          "Nesse mês de Dezembro estamos trazendo muito entretenimento, com valores promocionais, especialmente para vocês.");
+          "Nesse mes de Dezembro estamos trazendo muito entretenimento, com valores promocionais, especialmente para voces.");
       System.out.println("                              ");
       System.out.println(
-          "Para adquirir sua passagem para o mundo da diversão, você terá que escolher um entretenimento, o tempo que deseja se divertir, e poderá também escolher o que deseja comer e beber.");
+          "Para adquirir sua passagem para o mundo da diversao, voce tera que escolher um entretenimento, o tempo que deseja se divertir, e podera tambem escolher o que deseja comer e beber.");
       System.out.println("------------------------------");
-      System.out.println("APROVEITE SUA EXPERIÊNCIA!");
+      System.out.println("APROVEITE SUA EXPERIENCIA!");
       System.out.println("                               ");
 
-      // *1ª entrada do usuário, escolha de entretenimento.*//
+      // *1a entrada do usuario, escolha de entretenimento.*//
       do {
         System.out.print(
-            "Comece escolhendo para qual diversão você deseja se aventurar hoje: \n 1: Salão de Games. \n 2: Boliche. \n 3: Pista de Patinação. \n 4: Sair do Menu. \n Opção escolhida: ");
+            "Comece escolhendo para qual diversao voce deseja se aventurar hoje: \n 1: Salao de Games. \n 2: Boliche. \n 3: Pista de Patinacao. \n 4: Sair do Menu. \n Opcao escolhida: ");
         opcao = dados.nextInt();
-        // * 1º switch para escolha de entretenimento.*//
+        // * 1o switch para escolha de entretenimento.*//
         switch (opcao) {
 
           case 1:
-            resultado = ("Salão de Games");
+            resultado = ("Salao de Games");
             break;
           case 2:
             resultado = ("Boliche");
             break;
           case 3:
-            resultado = ("Pista de Patinação");
+            resultado = ("Pista de Patinacao");
             break;
           case 4:
             resultado = ("Sair do Menu.");
-            System.out.print("Você escolheu a opção Sair do Menu. Obrigado pela visita e volte sempre!");
+            System.out.print("Voce escolheu a opcao Sair do Menu. Obrigado pela visita e volte sempre!");
             System.exit(4);
             break;
         }
         System.out.println("                               ");
         if (opcao > 4 || opcao == 0) {
-          System.out.println("Você escolheu uma opção inválida!");
+          System.out.println("Voce escolheu uma opcao invalida!");
           System.out.println("                               ");
         }
       } while (opcao > 4 || opcao == 0);
 
-      // *Print da 1ª escolha do usuário.*//
+      // *Print da 1a escolha do usuario.*//
       System.out.print("Que legal! A sua escolha de hoje para se divertir foi " + resultado);
 
-      // *2ª entrada do usuário, escolha do tempo de entretenimento.*//
+      // *2a entrada do usuario, escolha do tempo de entretenimento.*//
       do {
         System.out.println("                               ");
         System.out.print(
-            "Agora escolha qual o tempo que você deseja se divertir conosco hoje:\n 1: 2 horas. \n 2: 5 horas. \n 3: Diária. \n 4: Sair do Menu. \n Opção escolhida: ");
+            "Agora escolha qual o tempo que voce deseja se divertir conosco hoje:\n 1: 2 horas. \n 2: 5 horas. \n 3: Diaria. \n 4: Sair do Menu. \n Opcao escolhida: ");
         tempo = dados.nextInt();
-        // * 2º switch para escolha do tempo de entretenimento.*//
+        // * 2o switch para escolha do tempo de entretenimento.*//
         switch (tempo) {
 
           case 1:
@@ -81,33 +81,33 @@ public class App {
             valortempo = 75.0;
             break;
           case 3:
-            hora = ("Diária");
+            hora = ("Diaria");
             valortempo = 100.0;
             break;
           case 4:
             hora = ("Sair do Menu.");
-            System.out.print("Você escolheu a opção Sair do Menu. Obrigado pela visita e volte sempre!");
+            System.out.print("Voce escolheu a opcao Sair do Menu. Obrigado pela visita e volte sempre!");
             System.exit(4);
             break;
         }
         if (tempo > 4 || tempo == 0) {
           System.out.println("                               ");
-          System.out.println("Você escolheu uma opção inválida!");
+          System.out.println("Voce escolheu uma opcao invalida!");
         }
       } while (tempo > 4 || tempo == 0);
 
-      // *Print da 2ª escolha do usuário.*//
+      // *Print da 2a escolha do usuario.*//
       System.out.println("                               ");
-      System.out.print("Que Massa! A sua opção de tempo escolhida foi " + resultado);
+      System.out.print("Que Massa! A sua opcao de tempo escolhida foi " + resultado);
       System.out.print(" por " + hora);
 
-      // *3ª entrada do usuário, escolha de comida.*//
+      // *3a entrada do usuario, escolha de comida.*//
       do {
         System.out.println("                               ");
         System.out.print(
-            "Agora escolha qual comida você quer pedir hoje:\n 1: Batata Frita. \n 2: Hambuguer. \n 3: Hot-Dog. \n 4: Nenhuma das opções acima. \n 5: Sair do Menu. \n Opção escolhida: ");
+            "Agora escolha qual comida voce quer pedir hoje:\n 1: Batata Frita. \n 2: Hambuguer. \n 3: Hot-Dog. \n 4: Nenhuma das opcoes acima. \n 5: Sair do Menu. \n Opcao escolhida: ");
         comida = dados.nextInt();
-        // * 3º switch para escolha de comida.*//
+        // * 3o switch para escolha de comida.*//
         switch (comida) {
 
           case 1:
@@ -123,30 +123,30 @@ public class App {
             valorcomida = 15.0;
             break;
           case 4:
-            lanche = ("Nenhuma das opções.");
-            System.out.println("Você escolheu a opção Nenhuma das opções. Anotado, vamos seguir!");
+            lanche = ("Nenhuma das opcoes.");
+            System.out.println("Voce escolheu a opcao Nenhuma das opcoes. Anotado, vamos seguir!");
             break;
           case 5:
             lanche = ("Sair do Menu.");
-            System.out.print("Você escolheu a opção Sair do Menu. Obrigado pela visita e volte sempre!");
+            System.out.print("Voce escolheu a opcao Sair do Menu. Obrigado pela visita e volte sempre!");
             System.exit(5);
             break;
         }
         if (comida > 5 || comida == 0) {
           System.out.println("                               ");
-          System.out.println("Você escolheu uma opção inválida!");
+          System.out.println("Voce escolheu uma opcao invalida!");
         }
       } while (comida > 5 || comida == 0);
 
-      // *1º Print de retorno para adicionar mais comida.*//
+      // *1o Print de retorno para adicionar mais comida.*//
       do {
         System.out.println("                               ");
         System.out.print(
-            "Você deseja incluir mais algum item na opção de comida? Responda abaixo:\n 1: Sim. \n 2: Não \n Opção escolhida: ");
+            "Voce deseja incluir mais algum item na opcao de comida? Responda abaixo:\n 1: Sim. \n 2: Nao \n Opcao escolhida: ");
         opcaocomida = dados.nextInt();
         if (opcaocomida > 2 || opcaocomida == 0) {
           System.out.println("                               ");
-          System.out.println("Você escolheu uma opção inválida!");
+          System.out.println("Voc\u00ea escolheu uma op\u00e7\u00e3o inv\u00e1lida!");
         }
       } while (opcaocomida > 2 || opcaocomida == 0);
 
@@ -154,7 +154,7 @@ public class App {
         do {
           System.out.println("                               ");
           System.out.print(
-              "Escolha outra opção de comida que você deseja pedir hoje:\n 1: Batata Frita. \n 2: Hambuguer. \n 3: Hot-Dog. \n 4: Nenhuma das opções acima. \n Opção escolhida: ");
+              "Escolha outra opcao de comida que voce deseja pedir hoje:\n 1: Batata Frita. \n 2: Hambuguer. \n 3: Hot-Dog. \n 4: Nenhuma das opcoes acima. \n Opcao escolhida: ");
           maiscomida = dados.nextInt();
           switch (maiscomida) {
 
@@ -171,26 +171,26 @@ public class App {
               outracomida = 15.0;
               break;
             case 4:
-              outrolanche = ("Nenhuma das opções.");
-              System.out.println("Você escolheu a opção Nenhuma das opções. Anotado, vamos seguir!");
+              outrolanche = ("Nenhuma das opcoes.");
+              System.out.println("Voce escolheu a opcao Nenhuma das opcoes. Anotado, vamos seguir!");
               break;
           }
           if (maiscomida > 4 || maiscomida == 0) {
             System.out.println("                               ");
-            System.out.println("Você escolheu uma opção inválida!");
+            System.out.println("Voc\u00ea escolheu uma op\u00e7\u00e3o inv\u00e1lida!");
           }
         } while (maiscomida > 4 || maiscomida == 0);
       }
 
       System.out.println("                               ");
-      System.out.print("Que delícia, excelente escolha! A sua comida escolhida para hoje foi " + lanche);
+      System.out.print("Que delicia, excelente escolha! A sua comida escolhida para hoje foi " + lanche);
       System.out.println(" e " + outrolanche);
 
-      // *Quarta entrada do usuário, escolher a bebida.*//
+      // *Quarta entrada do usuario, escolher a bebida.*//
       do {
         System.out.println("                               ");
         System.out.print(
-            "Por fim, escolha qual bebida você quer pedir hoje:\n 1: Coca-cola. \n 2: Suco. \n 3: Água. \n 4: Nenhuma das opções acima. \n 5: Sair do Menu. \n Opção escolhida: ");
+            "Por fim, escolha qual bebida voce quer pedir hoje:\n 1: Coca-cola. \n 2: Suco. \n 3: Agua. \n 4: Nenhuma das opcoes acima. \n 5: Sair do Menu. \n Opcao escolhida: ");
         bebida = dados.nextInt();
         // * Quarto switch para escolha de bebida.*//
         switch (bebida) {
@@ -204,35 +204,35 @@ public class App {
             valorbebida = 8.0;
             break;
           case 3:
-            refri = ("Água");
+            refri = ("Agua");
             valorbebida = 5.0;
             break;
           case 4:
-            refri = ("Nenhuma das opções.");
-            System.out.println("Você escolheu a opção Nenhuma das opções. Anotado, vamos seguir!");
+            refri = ("Nenhuma das opcoes.");
+            System.out.println("Voce escolheu a opcao Nenhuma das opcoes. Anotado, vamos seguir!");
             break;
           case 5:
             refri = ("Sair do Menu.");
-            System.out.println("Você escolheu a opção Sair do Menu. Obrigado pela visita e volte sempre!");
+            System.out.println("Voce escolheu a opcao Sair do Menu. Obrigado pela visita e volte sempre!");
             System.exit(5);
             break;
         }
         if (bebida > 5 || bebida == 0) {
           System.out.println("                               ");
-          System.out.println("Você escolheu uma opção inválida!");
+          System.out.println("Voce escolheu uma opcao invalida!");
         }
       } while (bebida > 5 || bebida == 0);
 
-      // *2º Print de retorno para adicionar mais bebida.*//
+      // *2o Print de retorno para adicionar mais bebida.*//
       do {
         System.out.println("                               ");
         System.out.print(
-            "Você deseja incluir mais algum item na opção de bebida? Responda abaixo:\n 1: Sim. \n 2: Não \n Opção escolhida: ");
+            "Voce deseja incluir mais algum item na opcao de bebida? Responda abaixo:\n 1: Sim. \n 2: Nao \n Opcao escolhida: ");
         opcaobebida = dados.nextInt();
 
         if (opcaobebida > 2 || opcaobebida == 0) {
           System.out.println("                               ");
-          System.out.println("Você escolheu uma opção inválida!");
+          System.out.println("Voc\u00ea escolheu uma op\u00e7\u00e3o inv\u00e1lida!");
         }
       } while (opcaobebida > 2 || opcaobebida == 0);
 
@@ -240,7 +240,7 @@ public class App {
         do {
           System.out.println("                               ");
           System.out.print(
-              "Escolha outra opção de bebida que você deseja pedir hoje:\n 1: Coca-cola. \n 2: Suco. \n 3: Água. \n 4: Nenhuma das opções acima. \n Opção escolhida: ");
+              "Escolha outra opcao de bebida que voce deseja pedir hoje:\n 1: Coca-cola. \n 2: Suco. \n 3: Agua. \n 4: Nenhuma das opcoes acima. \n Opcao escolhida: ");
           maisbebida = dados.nextInt();
           switch (maisbebida) {
             case 1:
@@ -252,22 +252,22 @@ public class App {
               outrabebida = 8.0;
               break;
             case 3:
-              outrorefri = ("Água");
+              outrorefri = ("Agua");
               outrabebida = 5.0;
               break;
             case 4:
-              outrorefri = ("Nenhuma das opções.");
-              System.out.println("Você escolheu a opção Nenhuma das opções. Anotado, vamos seguir!");
+              outrorefri = ("Nenhuma das opcoes.");
+              System.out.println("Voce escolheu a opcao Nenhuma das opcoes. Anotado, vamos seguir!");
               break;
           }
           if (maisbebida > 4 || maisbebida == 0) {
             System.out.println("                               ");
-            System.out.println("Você escolheu uma opção inválida!");
+            System.out.println("Voce escolheu uma opcao invalida!");
           }
         } while (maisbebida > 4 || maisbebida == 0);
       }
 
-      // *Print da 4ª entrada escolhida pelo usuário.*//
+      // *Print da 4a entrada escolhida pelo usuario.*///
       System.out.println("                               ");
       System.out.print("Excelentes escolhas! Sua bebida escolhida para hoje foi " + refri);
       System.out.println(" e " + outrorefri);
@@ -298,9 +298,9 @@ public class App {
       System.out.print("O valor total dos itens escolhidos foram R$ " + total);
       System.out.println("                                ");
 
-      // *Quinta entrada do usuário, escolher a forma de pagamento.*//
+      // *Quinta entrada do usuario, escolher a forma de pagamento.*//
       System.out.print(
-          "Então, qual a sua forma de pagamento dos itens escolhidos? \n 1: Dinheiro. \n 2: Pix. \n 3: Débito. \n 4: Crédito. \n 5: Sair do Menu. \n Opção escolhida:");
+          "Entao, qual a sua forma de pagamento dos itens escolhidos? \n 1: Dinheiro. \n 2: Pix. \n 3: Debito. \n 4: Credito. \n 5: Sair do Menu. \n Opcao escolhida:");
       pagamento = dados.nextInt();
 
       // * Quinto switch para escolha da forma de pagamento.*//
@@ -313,42 +313,42 @@ public class App {
           dinheiro = ("PIX");
           break;
         case 3:
-          dinheiro = ("Débito.");
+          dinheiro = ("Debito.");
           break;
         case 4:
-          dinheiro = ("Crédito.");
+          dinheiro = ("Credito.");
           break;
         case 5:
           dinheiro = ("Sair do Menu.");
         default:
-          System.out.println("Você escolheu a opção Sair do Menu. Obrigado pela visita e volte sempre!");
+          System.out.println("Voc\u00ea escolheu a op\u00e7\u00e3o Sair do Menu. Obrigado pela visita e volte sempre!");
           System.exit(5);
           break;
       }
       // *Print da quinta entrada escolhida pelo usuário.*//
-      System.out.println("Sua forma de pagmento escolhida foi " + dinheiro);
+      System.out.println("Sua forma de pagamento escolhida foi " + dinheiro);
       System.out.println("                                ");
       System.out.println("------------------------------");
       System.out.println("                                ");
-      System.out.println("Muito bom! Obrigada por nos escolher, tenha um excelente dia e experiência no Geek Club!  ");
+      System.out.println("Muito bom! Obrigada por nos escolher, tenha um excelente dia e experiancia no Geek Club!  ");
       System.out.println("                                ");
 
       do {
         System.out.println("------------------------------");
         System.out.println("                                ");
         System.out
-            .print("Você deseja incluir mais alguma coisa? Responda abaixo:\n 1: Sim. \n 2: Não \n Opção escolhida: ");
+            .print("Voce deseja incluir mais alguma coisa? Responda abaixo:\n 1: Sim. \n 2: Nao \n Opcao escolhida: ");
         escolhafim = dados.nextInt();
 
         if (escolhafim > 2 || escolhafim == 0) {
           System.out.println("                                ");
-          System.out.println("Você escolheu uma opção inválida!");
+          System.out.println("Voc\u00ea escolheu uma op\u00e7\u00e3o inv\u00e1lida!");
           System.out.println("                                ");
         }
       } while (escolhafim > 2 || escolhafim == 0);
 
       if (escolhafim == 2) {
-        System.out.println("Você escolheu a opção Não, você deseja sair do menu. Obrigado pela visita e volte sempre!");
+        System.out.println("Voce escolheu a opcao Nao, voce deseja sair do menu. Obrigado pela visita e volte sempre!");
         System.out.println("                                ");
         System.out.println("------------------------------");
         System.exit(2);
